@@ -1,0 +1,64 @@
+@media (max-width: 375px) {
+    body {
+        background: url(../images/bg-mobile.svg) center 0 no-repeat;
+        background-color: var(--background-color);
+        width: 375px;
+    }
+
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .cabecalho .logo {
+        width: 110px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .main .imagem-conteudo {
+        display: flex;
+        justify-content: center;
+        height: 210px;
+        padding: 0;
+    }
+
+    .main .imagem-conteudo img {
+        padding: 0;
+        height: 210px;
+    }
+
+    .conteudo{
+        display: flex;
+        text-align: center;
+    }
+
+    .conteudo .textos-conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .conteudo .textos-conteudo .titulo{
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .conteudo .textos-conteudo .subtitulo {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .contato .contatos {
+        display: flex;
+        display: flex;
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-60%, 650%);
+    }
+}
